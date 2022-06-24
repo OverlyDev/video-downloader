@@ -8,6 +8,9 @@
 3. Any videos that are not in .mp4 format will be converted to .mp4
 
 ## Notes
+yt-dlp is currently configured to use an archive file: `<cwd>/ytdl_archive.txt`. Meaning, once a file is downloaded it won't be downloaded again.
+You can either delete the archive file to re-download or disable the functionality by commenting out [this](https://github.com/OverlyDev/video-downloader/blob/7fa1ba0ecec7d2eb45d7732f437b90fb8fa45c1b/main.py#L100) line.
+
 Currently there's a couple hard-coded functions specifc to my use case. These might become more generic in the future
 
 The original funnyjunk urls were incompatible with yt-dlp so I had to inspect the webpage source and grab the actual video url. This might work for other unsupported sites.
