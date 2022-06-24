@@ -10,6 +10,8 @@
 ## Notes
 Currently there's a couple hard-coded functions specifc to my use case. These might become more generic in the future
 
+The original funnyjunk urls were incompatible with yt-dlp so I had to inspect the webpage source and grab the actual video url. This might work for other unsupported sites.
+
 ### References:
 https://github.com/yt-dlp/yt-dlp
 
