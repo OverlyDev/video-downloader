@@ -12,6 +12,13 @@ Currently there's a couple hard-coded functions specifc to my use case. These mi
 
 The original funnyjunk urls were incompatible with yt-dlp so I had to inspect the webpage source and grab the actual video url. This might work for other unsupported sites.
 
+## Compatibility
+This was created and tested on PopOS 22.04 (python 3.10) and thus the apt-requirements.txt reflects the packages used on that OS. 
+
+If you're using a different OS/python version, you may need to modify the apt-requirements.txt for it to work. 
+
+No guarantees for older/newer python versions.
+
 ### References:
 https://github.com/yt-dlp/yt-dlp
 
